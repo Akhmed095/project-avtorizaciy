@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", serif;
+    height: 100vh;
+    background-color: blue;
+}
+.conteyner{
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.box__title{
+    width: 100vw;
+    height: 120px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.blog{
+    background-color: aliceblue;
+    border-radius: 10px;
+    width: 550px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blog__item{
+    width: 450px;
+    height: 300px;
+}
+.blog__item__text{
+    text-align: center;
+}
+.blog__item__email__label{
+    width: 450px;
+    height: 55px;
+    text-align: start;
+    margin-top: 20px;
+
+}
+#email{
+    background-color: #f5f5f5;
+    width: 442px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+.blog__item__label__possword{
+    width: 450px;
+    height: 58px;
+    margin-top: 50px;
+}
+.blog__item__possword{
+    height: 44px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: relative;
+}
+#password{
+    background-color: #f5f5f5;
+    width: 442px;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 8px;
+    margin-bottom: -3px;
+    margin-right: -4px;
+
+}
+img{
+    position: absolute;
+    width: 25px;
+}
+.forgot__password{
+    margin-top: 18px;
+    text-align: end;
+}
+.blog__button{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+#blog__button__item{
+    background-color: blue;
+    color: #fff;
+    font-size: 18px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+}
